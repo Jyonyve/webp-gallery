@@ -1,0 +1,11 @@
+# 기본 Node/Vite/React 관련
+node_modules
+dist
+.env
+.DS_Store
+
+# yarn 관련
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.pnp.*
