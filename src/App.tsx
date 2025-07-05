@@ -15,7 +15,7 @@ function App() {
         {imageList.map((name) => (
           <img
             key={name}
-            src={`/webp-gallery/images/${name}`}
+            src={`/webp-gallery/images/${name}`} // name includes folder like "portraits/img1.webp"
             alt={name}
             onClick={() => setSelected(name)}
           />
